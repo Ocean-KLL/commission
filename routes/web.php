@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Location;
+use App\Http\Controllers\user;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,3 +15,4 @@ use App\Http\Controllers\Location;
 */
 
 Route::get('/Location',[Location::class, 'GetLocate'])->name('Location');
+Route::get('/login',[user::class, 'index'])->name('login');
