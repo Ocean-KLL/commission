@@ -1,5 +1,4 @@
 <?php
-
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Location;
 use App\Http\Controllers\user;
@@ -13,6 +12,5 @@ use App\Http\Controllers\user;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/Location',[Location::class, 'GetLocate'])->name('Location');
 Route::get('/login',[user::class, 'index'])->name('login');
