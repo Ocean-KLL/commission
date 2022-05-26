@@ -29,14 +29,14 @@
         <div class="top-header-area">
             <div class="h-100 d-md-flex justify-content-between align-items-center">
                 <div class="email-address">
-                    <a href="mailto:contact@southtemplate.com">contact@pointcom.com</a>
+                    <a href="mailto:contact@southtemplate.com">bestechconsult@contact.com</a>
                 </div>
                 <div class="phone-number d-flex">
                     <div class="icon">
                         <img src="img/icons/phone-call.png" alt="">
                     </div>
                     <div class="number">
-                        <a href="tel:+45 677 8993000 223">+243 000000000</a>
+                        <a href="tel:+45 677 8993000 223">+243 974133780</a>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                                 <li><a href="#">Location</a></li>
                                 <li><a href="#">Achat/Vente</a></li>
                                 <li><a href="#">Comment ?</a></li>
-                                <li><a href="#">A propos</a></li>
+                                <li><a href="{{route('apropos')}}">A propos</a></li>
 
                                 <li><a href="#">Contact</a></li>
                             </ul>
