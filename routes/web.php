@@ -12,5 +12,4 @@ use App\Http\Controllers\Location;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/Location',[Location::class, 'GetLocate'])->name('Location');
