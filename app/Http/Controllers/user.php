@@ -9,4 +9,7 @@ class user extends Controller
     public function index(){
         return view('clients.login');
     }
+    public function enregistrement(){
+        return view('clients.enregistrement');
+    }
 }

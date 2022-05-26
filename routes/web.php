@@ -14,3 +14,4 @@ use App\Http\Controllers\user;
 */
 Route::get('/Location',[Location::class, 'GetLocate'])->name('Location');
 Route::get('/login',[user::class, 'index'])->name('login');
+Route::get('/enregistrer',[user::class, 'enregistrement'])->name('enregistrement');

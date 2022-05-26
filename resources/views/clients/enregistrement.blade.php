@@ -10,10 +10,8 @@
     <form>
       <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
       <input type="text" id="password" class="oassword second" name="paasword" placeholder="password">
-      <input type="submit" class="fadeIn fourth" value="Se connecter">
+      <input type="text" id="password" class="oassword second" name="paasword" placeholder="confirmation de password">
+      <input type="submit" class="fadeIn fourth" value="Enregistrer">
     </form>
-    <div id="formFooter">
-      <a class="underlineHover" href="#">Mot de passe oublié</a>
-    </div>
   </div>
 </div>	
