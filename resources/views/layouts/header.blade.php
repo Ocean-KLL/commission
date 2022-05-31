@@ -14,6 +14,7 @@
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link href="{{asset('css/styles.css')}}" rel="stylesheet">
 
 </head>
 
@@ -212,6 +213,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="{{asset('js/jquery-ui.min.js')}}"></script>
     <!-- Active js -->
     <script src="{{asset('js/active.js')}}"></script>
+    <script src="{{asset('js/main.js')}}"></script>
 
 </body>
 
