@@ -1,11 +1,8 @@
 @extends('layouts.header')
 @section('content')
-    <style>
-        
-    </style>
-    <br><br><br><br><br><br><br>
+ <br>
     <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
+      <div class="container-fluild" data-aos="zoom-in">
 
         <div class="text-center">
           <h3>Achat & Vente</h3>
