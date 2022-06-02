@@ -402,7 +402,7 @@
                     </div>
                 </div>
             </div>
-
+            <span>pour plus d'informations sur la façon de vendre et d'acheter veuillez cliquer <a class="btn btn-info" href="{{route('infos')}}">ici</a></span>
             <div class="row">
                 <div class="col-12">
                     <div class="south-pagination d-flex justify-content-end">
@@ -413,6 +413,7 @@
                                 <li class="page-item"><a class="page-link" href="#">03</a></li>
                             </ul>
                         </nav>
+                        
                     </div>
                 </div>
             </div>
