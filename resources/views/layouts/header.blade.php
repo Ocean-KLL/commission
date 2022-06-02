@@ -155,7 +155,7 @@
                             <ul class="useful-links-nav d-flex align-items-center">
                                 <li><a href="index.html">Accueil</a></li>
                                 <li><a href="#">Location</a></li>
-                                <li><a href="#">Achat/Vente</a></li>
+                                <li><a href="{{route('achat_vente')}}">Achat/Vente</a></li>
                                 <li><a href="#">Comment ?</a></li>
                                 <li><a href="#">A propos</a></li>
                                 <li><a href="#">Contact</a></li>
