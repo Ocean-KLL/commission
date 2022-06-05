@@ -11,9 +11,9 @@ class detail_properties extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function Getdetails()
     {
-        //
+        return view("clients.detail_properties");
     }
 
     /**
